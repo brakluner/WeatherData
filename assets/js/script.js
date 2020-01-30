@@ -1,6 +1,6 @@
 function buildQueryURL() {
 
-    var queryURL = "http://api.openweathermap.org/data/2.5/forecast?";
+    var queryURL = "https://api.openweathermap.org/data/2.5/forecast?";
   
     
     var queryParams = { "appid": "e93f1d79d40142e2bc8be671bdbfa000" };
@@ -101,7 +101,7 @@ $("#mn").on("click", function (event) {
 
     clear();
 
-    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Minneapolis&units=imperial" 
+    var queryMn = "https://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Minneapolis&units=imperial" 
     
     $.ajax({
       url: queryMn,
@@ -115,7 +115,7 @@ $("#co").on("click", function (event) {
 
     clear();
 
-    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Denver&units=imperial" 
+    var queryMn = "https://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Denver&units=imperial" 
     
     $.ajax({
       url: queryMn,
@@ -129,7 +129,7 @@ $("#ia").on("click", function (event) {
 
     clear();
 
-    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=DesMoines&units=imperial" 
+    var queryMn = "https://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=DesMoines&units=imperial" 
     
     $.ajax({
       url: queryMn,
@@ -143,7 +143,7 @@ $("#ne").on("click", function (event) {
 
     clear();
 
-    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Omaha&units=imperial" 
+    var queryMn = "https://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Omaha&units=imperial" 
     
     $.ajax({
       url: queryMn,
@@ -157,7 +157,7 @@ $("#wi").on("click", function (event) {
 
     clear();
 
-    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Madison&units=imperial" 
+    var queryMn = "https://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Madison&units=imperial" 
     
     $.ajax({
       url: queryMn,
@@ -171,7 +171,7 @@ $("#wi").on("click", function (event) {
 
     clear();
 
-    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Cheyenne&units=imperial" 
+    var queryMn = "https://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Cheyenne&units=imperial" 
     
     $.ajax({
       url: queryMn,
@@ -185,7 +185,7 @@ $("#wi").on("click", function (event) {
 
     clear();
 
-    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Buffalo&units=imperial" 
+    var queryMn = "https://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Buffalo&units=imperial" 
     
     $.ajax({
       url: queryMn,
