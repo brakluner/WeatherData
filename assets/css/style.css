@@ -1,0 +1,7 @@
+.card {
+    float: left;
+    vertical-align: text-bottom;
+}
+#sideContainer{
+    position: absolute;
+}
