@@ -95,7 +95,104 @@ $("#submitSearch").on("click", function(event) {
       method: "GET"
     }).then(updatePage);
   });
+
+$("#mn").on("click", function (event) {
+    event.preventDefault();
+
+    clear();
+
+    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Minneapolis&units=imperial" 
+    
+    $.ajax({
+      url: queryMn,
+      method: "GET"
+    }).then(updatePage);
+
+  })
   
+$("#co").on("click", function (event) {
+    event.preventDefault();
+
+    clear();
+
+    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Denver&units=imperial" 
+    
+    $.ajax({
+      url: queryMn,
+      method: "GET"
+    }).then(updatePage);
+
+  })
+
+$("#ia").on("click", function (event) {
+    event.preventDefault();
+
+    clear();
+
+    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=DesMoines&units=imperial" 
+    
+    $.ajax({
+      url: queryMn,
+      method: "GET"
+    }).then(updatePage);
+
+  })
+
+$("#ne").on("click", function (event) {
+    event.preventDefault();
+
+    clear();
+
+    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Omaha&units=imperial" 
+    
+    $.ajax({
+      url: queryMn,
+      method: "GET"
+    }).then(updatePage);
+
+  })
+
+$("#wi").on("click", function (event) {
+    event.preventDefault();
+
+    clear();
+
+    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Madison&units=imperial" 
+    
+    $.ajax({
+      url: queryMn,
+      method: "GET"
+    }).then(updatePage);
+
+  })
+
+  $("#wy").on("click", function (event) {
+    event.preventDefault();
+
+    clear();
+
+    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Cheyenne&units=imperial" 
+    
+    $.ajax({
+      url: queryMn,
+      method: "GET"
+    }).then(updatePage);
+
+  })
+
+  $("#ny").on("click", function (event) {
+    event.preventDefault();
+
+    clear();
+
+    var queryMn = "http://api.openweathermap.org/data/2.5/forecast?appid=e93f1d79d40142e2bc8be671bdbfa000&q=Buffalo&units=imperial" 
+    
+    $.ajax({
+      url: queryMn,
+      method: "GET"
+    }).then(updatePage);
+
+  })
 
   
     
