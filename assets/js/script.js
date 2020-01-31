@@ -57,7 +57,7 @@ function updatePage(weatherData) {
     for (var i = 0; i < 5; i++) {
   
         
-        var cards = weatherData.list[i].dt;
+        var cards = weatherData.list[i].dt_txt;
         var cardTemp = weatherData.list[i].main.temp;
         var cardMain = weatherData.list[i].weather[0].main; 
         var cardDisc = weatherData.list[i].weather[0].description;
