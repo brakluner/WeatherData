@@ -59,8 +59,8 @@ function updatePage(weatherData) {
         
         var cards = weatherData.list[i].dt;
         var cardTemp = weatherData.list[i].main.temp;
-        var cardMain = weatherData.list[i].weather.id; 
-        var cardDisc = JSON.stringify(weatherData.list[i].weather);
+        var cardMain = weatherData.list[i].weather[0].main; 
+        var cardDisc = weatherData.list[i].weather[0].description;
 
         console.log(cardDisc)
 
