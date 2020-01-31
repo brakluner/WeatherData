@@ -54,7 +54,11 @@ function updatePage(weatherData) {
   $("#todayCast").append(displayMainPressure)
 
 
-    for (var i = 0; i < 5; i++) {
+
+  var highMin     = 41;
+  var step = 8;
+
+  for (var i = step; i <= highMin; i+=step) {
   
         
         var cards = weatherData.list[i].dt_txt;
