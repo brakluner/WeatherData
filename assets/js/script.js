@@ -55,8 +55,8 @@ function updatePage(weatherData) {
 
 
 
-  var highMin     = 41;
-  var step = 8;
+  var highMin     = 40;
+  var step = 7;
 
   for (var i = step; i <= highMin; i+=step) {
   
